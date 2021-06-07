@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Commissioner', sans-serif;
+}
+#header{
+    height: 150px;
+    width: 697px;
+    margin: 20px auto;
+}
+#header ul{
+    list-style: none;
+}
+#header ul li{
+    float: left;
+    padding: 10px;
+    background-color: turquoise;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+#header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#header ul li:hover{
+    background-color: #36c1b3;
+    cursor: pointer;
+}
+.main-container{
+    width: 89%;
+    margin: 0px auto;
+    height: 150px;
+}
+.container{
+    width: 100%;
+    background-color: turquoise;
+    height: 714px;
+    border-radius: 20px;
+    color: black;
+    padding: 15px;
+}
+h1{
+    color: #189018;
+    text-align: center;
+    font-size: 44px;
+}
+h2{
+    margin-top: 71px;
+    font-size: 20px;
+}
+.covid-19-p{
+    margin-top: 15px;
+    width: 50%;
+    font-size: 15px;
+}
+.covid-img{
+    width: 450px;
+    height: 250px;
+    float: right;
+    margin-top: -114px;
+}
+#corona-2{
+    margin-top: -235px;
+}
+.uls{
+    padding: 7px;
+    width: 44%;
+}
+.spreading{
+    margin-left: 12px;
+    padding: 5px;
+    margin-top: 110px;
+    width: 32.3%;
+    height: 350px;
+}
+#stats{
+    text-align: center;
+    width: 45%;
+}
+#stats img{
+    width: 17px;
+}
+#stats ul{
+    list-style: none;
+    margin-top: 50px;
+}
+#stats ul li{
+    text-align: center;
+    float: left;
+}
+.block{
+    display: block;
+    font-size: 16px;
+    margin-top: 8px;
+    color: gray;
+}
+.vertical{
+    border-left: 1px solid #b9b7b7;
+    height: 48px;
+    position: absolute;
+    left: 32%;
+    top: -9%;
+}
+.vertical2{
+    border-left: 1px solid #b9b7b7;
+    height: 48px;
+    position: absolute;
+    left: 64%;
+    top: -9%;
+}
+
+.second-container{
+    width: 43%;
+    border-radius: 10px;
+    height: 266px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 28px;
+}
+.second-container ul li {
+    width: 26.33%;
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+#world-wide{
+    margin-top: -175px;
+}
